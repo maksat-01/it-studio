@@ -2352,6 +2352,345 @@
 
 }
 
+@media screen and (max-width: 391px) {
+  #header {
+    .header {
+      .header--general {
+        width: 94vw;
+        img {
+        }
+
+        &__icons {
+          display: none;
+          &--ai {
+          }
+        }
+
+        .hamburger-menu {
+          #menu__toggle {
+          }
+
+          .menu__btn {
+          }
+
+          .menu__box {
+            .menu__item {
+            }
+          }
+        }
+      }
+    }
+  }
+  #hero {
+    .hero {
+      .hero--general {
+        &__block {
+        }
+
+        h1 {
+          font-size: 80px;
+        }
+
+        &__line {
+          display: none;
+        }
+
+        &__title {
+          margin: 15px;
+          z-index: 1;
+          p {
+          }
+
+          button {
+            width: 325px;
+          }
+
+          &--next {
+            display: none;
+          }
+        }
+
+      }
+
+      .hero--circle {
+      }
+    }
+  }
+  #our-service {
+    .our-service {
+      .our-service--general {
+        h1 {
+          font-size: 80px;
+        }
+
+        p {
+        }
+
+        &__group {
+          margin: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          &--block {
+            h2 {
+            }
+
+            &__title {
+              h3 {
+              }
+
+              &--circle {
+              }
+            }
+          }
+
+          &--block2 {
+            h2 {
+            }
+
+            &__title2 {
+              h3 {
+              }
+
+              &--circle2 {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #our-projects {
+    .our-projects {
+      .our-projects--general {
+        h1 {
+          font-size: 70px;
+        }
+
+        &__block {
+          &--image {
+            width: 20rem;
+            img {
+              width: 20rem;
+            }
+
+            &__scroll {
+              h2 {
+                font-size: 50px;
+              }
+              img {
+                width: 47px;
+                height: 97px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #our-team {
+    .our-team {
+      .our-team--general {
+        h1 {
+        }
+
+        &__title {
+          flex-wrap: wrap;
+          &--group {
+            &__image {
+              width: 300px;
+              height: 401px;
+            }
+
+            &__block {
+              h2 {
+              }
+
+              h3 {
+              }
+
+              &--icons {
+                &__social {
+                }
+              }
+            }
+          }
+
+        }
+      }
+    }
+  }
+  #tools {
+    .tools {
+      .tools--general {
+        h1 {
+          font-size: 45px;
+        }
+
+        &__group {
+          &--image {
+            width: 10rem;
+
+          }
+
+          &--block {
+            &__item {
+              width: 325px;
+              &--title {
+                margin: 15px;
+              }
+            }
+          }
+
+          &--image2 {
+            width: 30rem;
+
+          }
+        }
+      }
+    }
+  }
+  #vacancies {
+    .vacancies {
+      .vacancies--general {
+        h1 {
+          font-size: 55px;
+        }
+
+        &__group {
+          &--title {
+            table {
+              width: 580px;
+            }
+
+            &__block {
+              justify-content: space-evenly;
+              h2 {
+                font-size: 17px;
+              }
+
+              Link {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #contact {
+    .contact {
+      .contact--general {
+        h1 {
+          font-size: 60px;
+        }
+
+        &__group {
+          &--title {
+            &__icons {
+
+              &--icon {
+              }
+
+              h2 {
+                font-size: 17px;
+              }
+            }
+          }
+
+          iframe {
+            width: 250px;
+            height: 250px;
+          }
+        }
+      }
+    }
+  }
+  #footer {
+    .footer {
+      .footer--general {
+        &__group {
+          &--block {
+            &__words {
+              h1 {
+                font-size: 50px;
+              }
+            }
+
+            &__image {
+              display: none;
+              img {
+              }
+            }
+          }
+
+          &--title {
+            &__web {
+              &--item {
+                margin-left: 20%;
+                &__input {
+                  h2 {
+                  }
+
+                  &--line {
+                    input {
+                    }
+
+                    table {
+                      width: 200px;
+                    }
+                  }
+                }
+
+                &__btn {
+                  button {
+                  }
+                }
+
+                &__p {
+                  p {
+                  }
+                }
+              }
+
+              img {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #modal {
+    .modal {
+      .modal--general {
+        .h1 h1 {
+          padding: 80px 50px 10px 0;
+        }
+        &__group {
+          &--group2 {
+            flex-wrap: wrap;
+            h2 {
+              font-size: 80px;
+              margin: 20px;
+            }
+            &__line {
+              display: none;
+            }
+            &__title {
+              margin: 20px;
+              h3 {}
+              h4 {}
+              p {}
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+
 @media screen and (max-width: 375px) {
   #header {
     .header {
@@ -2497,7 +2836,8 @@
           flex-wrap: wrap;
           &--group {
             &__image {
-              width: 210px;
+              width: 300px;
+              height: 401px;
             }
 
             &__block {
@@ -2527,6 +2867,8 @@
 
         &__group {
           &--image {
+            width: 10rem;
+
           }
 
           &--block {
@@ -2592,6 +2934,8 @@
           }
 
           iframe {
+            width: 250px;
+            height: 250px;
           }
         }
       }
@@ -2604,6 +2948,8 @@
           &--block {
             &__words {
               h1 {
+                font-size: 50px;
+
               }
             }
 
@@ -2826,7 +3172,8 @@
           flex-wrap: wrap;
           &--group {
             &__image {
-              width: 210px;
+              width: 300px;
+              height: 401px;
             }
 
             &__block {
@@ -2856,6 +3203,7 @@
 
         &__group {
           &--image {
+            width: 10rem;
           }
 
           &--block {
@@ -2925,6 +3273,8 @@
           }
 
           iframe {
+            width: 250px;
+            height: 250px;
           }
         }
       }
@@ -2937,6 +3287,7 @@
           &--block {
             &__words {
               h1 {
+                font-size: 50px;
               }
             }
 
