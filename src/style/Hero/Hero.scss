@@ -1,0 +1,70 @@
+#hero {
+  margin-top: 100px;
+  .hero {
+
+    .hero--general {
+      display: flex;
+      align-items: center;
+      margin-top: 14%;
+      &__block {
+        position: absolute;
+        top: 15%;
+        left: 0;
+        height: 610px;
+        width: 314px;
+        background: #FF0000;
+      }
+      h1 {
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-size: 101px;
+        margin: 30px;
+        height: 369px;
+        width: 489px;
+        z-index: 9;
+        color: #ffff;
+        text-transform: uppercase;
+      }
+      &__line {
+        width: 4px;
+        height: 238px;
+        background: #ffffff;
+      }
+      &__title {
+        margin: 30px;
+      p {
+        font-size: 24px;
+        color: #ffffff;
+      }
+        button {
+          height: 119px;
+          width: 430px;
+          background: none;
+          font-size: 32px;
+          color: #ffffff;
+          border: 2px solid #ffffff;
+          transition: .4s;
+          &:hover {
+            transform: scale(1.03);
+            background: #ffffff;
+            color: black;
+          }
+        }
+        &--next {
+          font-size: 50px;
+          color: #ffffff;
+          margin: 0 30px;
+        }
+      }
+    }
+    &--circle {
+      height: 250px;
+      width: 455px;
+      background: #ffffff;
+      position: absolute;
+      top: 15%;
+      right: 0;
+    }
+
+  }
+}

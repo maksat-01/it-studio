@@ -1,0 +1,24 @@
+#header {
+  .header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    .header--general {
+      background: #252125;
+      height: 70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      &__icons {
+        font-size: 30px;
+        color: white;
+        &--ai {
+          padding: 30px;
+        }
+      }
+    }
+  }
+}

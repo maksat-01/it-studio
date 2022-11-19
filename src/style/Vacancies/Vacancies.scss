@@ -1,0 +1,40 @@
+#vacancies {
+  .vacancies  {
+    .vacancies--general {
+      h1 {
+        font-family: Montserrat,sans-serif;
+        font-size: 82px;
+        font-weight: 900;
+        text-align: center;
+        color: #ffffff;
+        text-transform: uppercase;
+      }
+      &__group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+        margin-left: 30%;
+        &--title {
+          &__block {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h2 {
+              font-size: 30px;
+              font-weight: 700;
+              color: #ffffff;
+            }
+            a {
+              font-size: 13px;
+              font-weight: 400;
+              color: #ffffff;
+              text-decoration: none;
+            }
+          }
+
+        }
+      }
+    }
+  }
+}

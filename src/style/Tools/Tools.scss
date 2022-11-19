@@ -1,0 +1,47 @@
+#tools {
+  .tools {
+    background: #ffffff;
+    margin-top: -7%;
+
+    .tools--general {
+
+      h1 {
+        font-size: 83px;
+        text-align: center;
+        font-weight: 700;
+        margin-top: 100px;
+        color: #252125;
+        padding: 40px 0;
+      }
+
+      &__group {
+        &--image {
+          margin-top: -5rem;
+          margin-left: -3em;
+          rotate: 270deg;
+        }
+        &--image2 {
+          rotate: 90deg;
+          margin-left: -7rem;
+        }
+        &--block {
+          &__item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 990px;
+            margin-left: 20%;
+            &--title {
+              height: 85px;
+              width: 79px;
+              border-radius: 5px;
+              margin: 20px;
+              background: #252125;
+            }
+          }
+        }
+      }
+    }
+  }
+}

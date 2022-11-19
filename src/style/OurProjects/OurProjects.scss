@@ -1,0 +1,38 @@
+#our-projects {
+  .our-projects {
+    .our-projects--general {
+      background: #ffffff;
+      h1 {
+        color: #840184;
+        font-size: 95px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      &__block {
+        &--image {
+          overflow-y: scroll;
+          margin-left: 8%;
+
+          &::-webkit-scrollbar{width: 0}
+          height: 53rem;
+          width: 80rem;
+          &__scroll {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background: #252125;
+            h2 {
+              font-size: 95px;
+              color: rgb(119, 119, 119);
+              text-transform: uppercase;
+            }
+            img {
+              margin-bottom: 100px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

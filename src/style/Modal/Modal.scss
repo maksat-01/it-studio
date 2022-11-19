@@ -1,0 +1,99 @@
+#modal {
+  background: #ffffff;
+
+  .modal {
+    margin-top: 7%;
+
+    .modal--general {
+      .h1 {
+        text-decoration: none;
+
+        h1 {
+          position: relative;
+          font-family: 'Montserrat Alternates', sans-serif;
+          font-weight: 500;
+          font-size: 22px;
+          color: #252125;
+          text-align: end;
+          padding: 50px 50px 10px 0;
+          transition: .4s;
+
+          &:hover {
+            color: #252125;
+          }
+
+          &:before {
+            content: "";
+            position: absolute;
+            width: 0;
+            right: 70px;
+            bottom: 7%;
+            height: 2px;
+            background: #252125;
+            transition: all .45s;
+          }
+
+          &:hover:before {
+            width: 4%;
+            right: 2.5%;
+          }
+        }
+      }
+
+      &__group {
+        &--group2 {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+
+          h2 {
+            font-size: 94px;
+            font-weight: 700;
+            color: #252125;
+          }
+
+          &__line {
+            table {
+              width: 500px;
+              rotate: 90deg;
+              position: absolute;
+              left: 30%;
+              top: 60%;
+
+            }
+          }
+
+          &__title {
+            margin-bottom: 100px;
+
+            h3 {
+              font-size: 33px;
+              font-weight: 700;
+              line-height: 40px;
+              color: #242528;
+
+              span {
+                color: #FF0000;
+              }
+            }
+
+            h4 {
+              font-size: 18px;
+              font-weight: 700;
+              line-height: 22px;
+              color: black;
+            }
+
+            p {
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 17px;
+              color: black;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
