@@ -6,6 +6,77 @@ import gsap from "gsap";
 
 const Hero = () => {
 
+    useEffect(() => {
+        gsap.to('.hero--general h1', {
+            scrollTrigger: {
+                trigger: ".hero--general h1",
+                start: "center center ",
+                end: "40px",
+                scrub: 3,
+            },
+            x:-500,
+            ease: "none",
+            duration:3,
+            autoAlpha: 0,
+        }, '-=4')
+
+        gsap.to('.hero--general__title p', {
+            scrollTrigger: {
+                trigger: ".hero--general__title p",
+                start: "center center ",
+                end: "40px",
+                scrub: 3,
+            },
+            y:-500,
+            ease: "none",
+            duration:3,
+            autoAlpha: 0,
+        }, '-=4')
+
+        gsap.to('.hero--general__title button', {
+            scrollTrigger: {
+                trigger: ".hero--general__title button",
+                start: "center center ",
+                end: "40px",
+                scrub: 3,
+            },
+            x: 1000,
+            ease: "none",
+            duration:3,
+            autoAlpha: 0,
+        }, '-=4')
+
+        gsap.to('.hero--general__title--next', {
+            scrollTrigger: {
+                trigger: ".hero--general__title--next",
+                start: "center center ",
+                end: "40px",
+                scrub: 3,
+            },
+            x:1500,
+            ease: "none",
+            duration:3,
+            autoAlpha: 0,
+        }, '-=4')
+
+        gsap.to('.hero--general__line', {
+            scrollTrigger: {
+                trigger: ".hero--general__line",
+                start: "center center ",
+                end: "40px",
+                scrub: 3,
+            },
+            x:-500,
+            ease: "none",
+            duration:3,
+            autoAlpha: 0,
+        }, '-=4')
+
+
+
+
+    })
+
     return (
         <section id="hero">
             <div className="hero">

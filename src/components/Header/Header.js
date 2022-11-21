@@ -1,11 +1,29 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import logo from "../../assests/img/logo.svg"
 import {AiFillInstagram} from "react-icons/ai"
 import {RiLinkedinFill} from "react-icons/ri"
 import {FaTelegramPlane} from "react-icons/fa"
 import {IoLogoWhatsapp} from "react-icons/io"
+import gsap from "gsap";
 
 const Header = () => {
+
+    useEffect(() => {
+        gsap.to('.header--general', {
+            scrollTrigger: {
+                trigger: ".header--general",
+                start: "top end ",
+                end: "40px",
+                scrub: 2,
+            },
+            y:-500,
+            ease: "none",
+            duration:2,
+            autoAlpha: 0,
+        }, '-=4')
+
+    })
+
     return (
         <header id="header">
             <div className="header">

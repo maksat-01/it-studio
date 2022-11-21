@@ -1,12 +1,29 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {FaTelegramPlane} from "react-icons/fa"
 import {RiLinkedinFill} from "react-icons/ri"
 import {AiFillInstagram} from "react-icons/ai"
 import {IoLogoWhatsapp} from "react-icons/io"
 import {SiGmail} from "react-icons/si"
 import {BsFillTelephoneFill} from "react-icons/bs"
+import {gsap} from "gsap";
 
 const Contact = () => {
+
+    useEffect(() => {
+        gsap.to('.contact--general h1', {
+            scrollTrigger: {
+                trigger: ".contact--general h1",
+                start: "end",
+                end: "1900px",
+                scrub: 3,
+            },
+            x:500,
+            ease: "none",
+            duration:3,
+            autoAlpha: 0,
+        }, '-=4')
+    })
+
     return (
         <section id="contact">
             <div className="contact">

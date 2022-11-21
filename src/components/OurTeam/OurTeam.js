@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import team from "../../assests/img/team.png"
 import team2 from "../../assests/img/team2.png"
 import team3 from "../../assests/img/team3.png"
@@ -6,8 +6,26 @@ import team5 from "../../assests/img/team5.png"
 import {GrLinkedinOption} from "react-icons/gr"
 import {AiFillInstagram} from "react-icons/ai"
 import {SiGmail} from "react-icons/si"
+import {gsap} from "gsap";
 
 const OurTeam = () => {
+
+    useEffect(() => {
+        gsap.to('.our-team--general h1', {
+            scrollTrigger: {
+                trigger: ".our-team--general h1",
+                start: "top end ",
+                end: "40px",
+                scrub: 3,
+            },
+            x:600,
+            ease: "none",
+            duration:3,
+            autoAlpha: 0,
+        }, '-=4')
+
+    })
+
     return (
         <section id="our-team">
             <div className="our-team">

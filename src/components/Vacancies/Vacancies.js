@@ -1,7 +1,27 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Link} from "react-router-dom";
+import {gsap} from "gsap";
 
 const Vacancies = () => {
+
+    useEffect(() => {
+        gsap.to('.vacancies--general h1', {
+            scrollTrigger: {
+                trigger: ".vacancies--general h1",
+                start: "bottom end",
+                end: "1900px",
+                scrub: 3,
+            },
+            y:-500,
+            ease: "none",
+            duration:3,
+            autoAlpha: 0,
+        }, '-=4')
+
+
+
+    })
+
     return (
         <section id="vacancies">
             <div className="vacancies">

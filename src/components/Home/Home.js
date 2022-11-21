@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import Hero from "../Hero/Hero";
 import OurService from "../Our-service/Our-service";
 import OurProjects from "../OurProjects/OurProjects";
@@ -10,7 +10,6 @@ import Footer from "../Footer/Footer";
 
 
 const Home = () => {
-
 
     return (
         <div className="scroll">

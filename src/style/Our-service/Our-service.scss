@@ -70,6 +70,54 @@
             }
           }
         }
+        &--block3 {
+          h2 {
+            font-size: 45px;
+            color: #ffffff;
+          }
+
+          &__title2 {
+            height: 366px;
+            width: 308px;
+            border: 1px solid #ffffff;
+            h3{
+              font-size: 18px;
+              color: #ffffff;
+              padding:0 10px;
+
+            }
+            &--circle2 {
+              height: 46px;
+              width: 308px;
+              clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 100% 100%, 0% 100%);
+              background: #ffffff;
+            }
+          }
+        }
+        &--block4 {
+          h2 {
+            font-size: 45px;
+            color: #ffffff;
+          }
+
+          &__title2 {
+            height: 366px;
+            width: 308px;
+            border: 1px solid #ffffff;
+            h3{
+              font-size: 18px;
+              color: #ffffff;
+              padding:0 10px;
+
+            }
+            &--circle2 {
+              height: 46px;
+              width: 308px;
+              clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 100% 100%, 0% 100%);
+              background: #ffffff;
+            }
+          }
+        }
 
       }
     }
