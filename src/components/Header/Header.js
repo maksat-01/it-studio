@@ -40,7 +40,6 @@ const Header = () => {
                         <label className="menu__btn" htmlFor="menu__toggle">
                             <span></span>
                         </label>
-
                         <ul className="menu__box">
                             <li><a className="menu__item" href="#">Главная</a></li>
                             <li><a className="menu__item" href="#">Проекты</a></li>

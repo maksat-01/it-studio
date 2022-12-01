@@ -19,6 +19,13 @@
           padding: 30px;
         }
       }
+      .hamburger-menu {
+        .menu__box {
+          .header--general__icons {
+            display: none;
+          }
+        }
+      }
     }
   }
 }
